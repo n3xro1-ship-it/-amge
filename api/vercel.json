@@ -1,0 +1,18 @@
+{
+  "yapılar": [
+    {
+      "src": "api/main.py",
+      "kullanım": "@vercel/python"
+    }
+  ],
+  "yeniden yazmalar": [
+    {
+      "kaynak": "/image.png",
+      "hedef": "api/main.py"
+    },
+    {
+      "kaynak": "/(.*)",
+      "hedef": "api/main.py"
+    }
+  ]
+}
